@@ -1,0 +1,37 @@
+lec 160:-
+click() :- for clicking
+$("button").click(function(){
+	$(this).css("background","pink")
+});
+
+lec 161:-
+keypress() :- anytime when a key is pressed between up an down.
+keydown() :- Right after the key is down.
+keyup() :- fired after releasing a key.
+If there is a text input adn someone clicks shift + a. keydown fire when shift and a
+the keypress will give "A".
+which referes to the code of the key which is pressed
+("input").keypress(function(event){
+	if(event.which === 13){
+	alert("Pressed enter");
+	}
+});
+
+lec 162:-
+on();
+$("h1").on("mouseenter", function(){
+	$(this).css("color","puruple")
+});
+mouseenter is hover
+mouseleave is opposite enter
+on click is better than click. As on click will add click for all future elements.
+
+lec 163:-
+fadeOut();
+$("button").on("click", function(){
+$('div').fadeOut(1000, function(){
+	$(this).remove(); //remove faded elements
+});
+});
+// there is also fadeIn(); and fadeToggle(500);
+slideDown(); //by5tefy b3d mynzel t7t, fy Up and Toggle.

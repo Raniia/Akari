@@ -1,0 +1,71 @@
+em and rem don't forget
+Background height image to 100%
+text shadow byseb shadow wara el kalam
+alert is JS is used by popping a mssg
+console.log , prints only in the console, to yourself. Used for logging
+prompt is used to open a pop up with a text to answer from the user.
+typecase Number(guess) in JS
+str.indexOf("w")
+.slice() method will be used to copy and entire array is there are no arguments enetered
+.setInterval(functionname, time_interval) can be used to call a specific function during a time interval
+colors.forEach(function(color){console.log(color);}); ORR
+function printcolor(col){
+	console.log("fjr");
+}
+color.forEach(printcolor);
+color.splice(index, how many elements);
+check Array.property.myForEach video
+var dog ={name:"Rusty", breed:"Mutt", age:3, add: function(x,y){return x+y;}}; or var dog ={} OR var dog = new Object();
+dog["age"] OR dog.age (Dot notation cannot be valid with 7aga started with number or space with it)
+dog["age"] +=1; dog.age +=1;
+another way for objects :-
+var prop ="color"
+someObject[prop]="red";
+\ escape character
+Name space collision when two functions have the same name, so the second one overwrites the first one.
+Functions can be added as a property to an object
+DOM(Document Object models) is the interface between JS and HTML+CSS.Object model A bunch 
+lec130 : of JS objects that are modelling elemnets in html 
+Node list is something like a light weight array.. we can't do a forEach on them
+queryselector returns the first element
+getElementsbyTagName returns all of the elements
+query selector can be querySelector("li a.special") all anchor tags inside li with class special
+querySelectorAll(".bolded"), returns ALL
+h1 +p is the paragraph after h1
+lec 132 classlist for adding,removing,toggling a class to a tag
+ul.innerHTML , treats it as HTML
+ul.textContent , it treats just as text
+document.body.innerHTML
+lec 134: for changing attributes use getAttribute and setAttribute
+lec 137: document.body.classList.toggle("name of the class"); (if the body dsnt have the classname purple then it adds it, else it removes it)
+lec 139:
+querySelector("input[type='number']")
+event listener can also be "changed" => "change" and there is "mouseover" wi ama el mouse ymshy yb2a "mouseout"
+Fy method esmaha .value
+Number(num.value) changes it to int
+addEventListener
+lec 149
+transition property in button is how we tell the css , how to animate transitions in color changes, font size changes, any property.
+lec 151:-
+There is a design pattern called as "module design pattern". add properties into objects.
+lec 152:
+JQuery is a JS library.
+lec 155:-
+var styles ={color: "red", background:"yellow"}
+$("li").css(styles);
+lec 156:-
+$("div:first-of-type").css("color","pink");
+lec 157:-
+text() : Similar to textContent
+html() :corresponds to inner html
+you want to treat input type="text" as text not html, to not be processed as JS
+lec 158:-
+attr() :- changes attribute $("#greatphoto").attr("alt","OK");
+.last():- returns the last element ("img").last();
+.val() :- gets the value of a selected element
+<select><option></option></select> for dropdown menu
+lec 159:-
+addClass();
+removeClass();
+toggleClass();
+first() :- selects first elemen
